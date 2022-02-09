@@ -1,0 +1,33 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 2
+            [urls] => Array
+                (
+                    [0] => https://www.jucarii-online.eu/image/catalog/Crocodile/prima_as_Smart_Object_1.jpg
+                    [1] => https://www.jucarii-online.eu/image/catalog/Crocodile/grupa_0_as_Smart_Object_1_as_Smart_Object_1.jpg
+                    [2] => https://www.jucarii-online.eu/image/catalog/Crocodile/grupa2_3_as_Smart_Object_1_as_Smart_Object_1.jpg
+                    [3] => https://www.jucarii-online.eu/image/catalog/Crocodile/rabatare_full_as_Smart_Object_1_as_Smart_Object_1_as_Smart_Object_1.jpg
+                    [4] => https://www.jucarii-online.eu/image/catalog/Crocodile/centura2_as_Smart_Object_1_as_Smart_Object_1.jpg
+                    [5] => https://www.jucarii-online.eu/image/catalog/Crocodile/isofix_as_Smart_Object_1_as_Smart_Object_1.jpg
+                    [6] => https://www.jucarii-online.eu/image/catalog/Crocodile/tetiera.jpg
+                )
+
+        )
+
+    [1] => Array
+        (
+            [line] => 2
+            [urls] => Array
+                (
+                    [0] => https://www.jucarii-online.eu/image/catalog/Crocodile/_DSC5445_b.jpg
+                    [1] => https://www.jucarii-online.eu/image/catalog/Crocodile/_DSC5449_b.jpg
+                    [2] => https://www.jucarii-online.eu/image/catalog/Crocodile/_DSC5448_b.jpg
+                    [3] => https://www.jucarii-online.eu/image/catalog/Crocodile/_DSC5447_b.jpg
+                    [4] => https://www.jucarii-online.eu/image/catalog/Crocodile/_DSC5446_b.jpg
+                )
+
+        )
+
+)

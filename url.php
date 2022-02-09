@@ -5,7 +5,7 @@
     }
     finfo_close($finfo);
 
-$file = 'puimic_catalog-2.csv';
+$file = 'book.csv';
 
 if (file_exists($file)) {
     echo "$file was last modified: " . date ("F d Y H:i:s.", filemtime($file));

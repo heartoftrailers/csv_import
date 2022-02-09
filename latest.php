@@ -8,9 +8,9 @@ $current = file_get_contents($url);
 $a = htmlspecialchars_decode($current);
  
 
-$b = htmlspecialchars_decode($a);
+// $b = htmlspecialchars_decode($a);
  
-$c =htmlspecialchars_decode($b);
+// $c =htmlspecialchars_decode($b);
 
 // $patterns = array();
 // $patterns[1] = '/jpg;http/';
