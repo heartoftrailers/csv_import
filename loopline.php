@@ -3,7 +3,7 @@
 $row = 1;
 $csv = array();
 if (($handle = fopen("puimic_catalog-2.csv", "r")) !== FALSE) {
-    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+    while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
         $num = count($data);
 
         $list = array();
@@ -18,7 +18,7 @@ if (($handle = fopen("puimic_catalog-2.csv", "r")) !== FALSE) {
             if($hc != $num) {
                 echo "ERROR!, $row";
                 echo $num;
-                print_r($data);
+                // print_r($data);
                 
                
             }
@@ -47,6 +47,7 @@ if (($handle = fopen("puimic_catalog-2.csv", "r")) !== FALSE) {
                     'urls' => $matches[0]);
                     unset($matches);
                     
+                    
 
                     // foreach ($array as $url) {
                         
@@ -62,20 +63,15 @@ if (($handle = fopen("puimic_catalog-2.csv", "r")) !== FALSE) {
         }
         // print_r($url);
         $csv[] = $list;
+        
         // echo "<p> $num fields in line $row: <br /></p>\n";
         $row++;
     }
     fclose($handle);
 }
 
+echo json_encode($url);
 
-
-
-// $url_links = fopen("Urls_File.csv", "w");
-// foreach ($matches as $links) {
-//     fputcsv($url_links, $links);
-    // print_r ($fields);
-// }
 
 
 $current = fopen("booktrans.csv", "w");
